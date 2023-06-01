@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  --clr-Pale-blue: rgb(224, 232, 255);
+  --clr-Bright-blue: hsl(245, 75%, 52%);
+  --clr-Very-pale-blue: hsl(225, 100%, 98%);
+  --clr-Desaturated-blue: hsl(224, 23%, 55%);
+  --clr-Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--clr-Pale-blue);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-cantainer {
+  width: 360px;
+  border-radius: 16px;
+  margin: auto;
+  background-color: var(--clr-Very-pale-blue);
+  box-shadow: 8px 8px 10=px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 1rem auto;
+}
+
+.discription {
+  width: 75%;
+  color: var(--clr-Desaturated-blue);
+  line-height: 1.5;
+  margin: 0.5rem auto;
+}
+
+.details-container {
+  width: 90%;
+  padding: 0.75rem;
+  border-radius: 10px;
+  margin: 0.5rem auto;
+  background-color: rgb(224, 232, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.plan {
+  font-weight: 900;
+}
+
+.price {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--clr-Desaturated-blue);
+}
+
+.change-link {
+  color: var(--clr-Bright-blue);
+}
+
+.btn-pay {
+  display: block;
+  width: 90%;
+  margin: 1rem auto;
+  padding: 0.75rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  border-radius: 10px;
+  background-color: var(--clr-Bright-blue);
+  color: var(--clr-Very-pale-blue);
+  border: 2px solid var(--clr-Bright-blue);
+}
+
+.cancel-link {
+  margin: 1rem;
+  color: var(--clr-Desaturated-blue);
+  text-decoration: none;
+}
